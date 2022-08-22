@@ -1,4 +1,55 @@
-img{
-    width: 100%;
-    height: 600px;
+
+/*.b-fondo{
+    display: flex;
+    justify-content: center;
 }
+
+.img-fondo{
+    width: 80%;
+    
+}
+
+@media screen {
+    
+}*/
+
+
+#app-fondo {
+    width: 100%;
+    height: 550px;
+    background: url("../../../assets/itfondo.webp") top center no-repeat;
+    background-size: cover;
+    position: relative;
+    block-size: ;
+  }
+
+
+  #app-fondo h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  #app-fondo h2 {
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  #app-fondo p {
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+
+  #pre-fperfil{
+    display: flex!important;
+    justify-content: center;
+  }
+
+  .img-perfil{
+    display: flex;
+    border-radius: 50px 0px;
+    left: 100px;
+  }
+

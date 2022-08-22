@@ -1,11 +1,40 @@
-.row{
-    padding: 20px;
+
+
+.educacion {
+    background-color: #52138e;
+    background-image: linear-gradient(36deg, #52138e 16%, #c850c0 40%, #1e2e75 68%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: ivory;
+    font-family: sans-serif;
+
 }
 
-div{
-    background: rgb(140, 183, 236);
+h1 {
+    font-size: 3rem;
+    font-family: Tahoma, sans-serif;
+    color: hwb(271 52% 17%);
+    width: auto;
 }
 
-h1, h3{
-    display: inline;
+.element-edu {
+    margin: 2px;
+    padding: 3px;
+
+    background: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    border-radius: 52px;
 }
+
+.element-edu img{
+
+    display: block;
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px 50px 50px 50px;
+}
+

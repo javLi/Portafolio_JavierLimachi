@@ -1,9 +1,9 @@
 div{
-    background-color: black;
+    background-color: #0a1f4d;
 }
 
 app-rsocial{
     float: right;
-    margin-top:  25px;
+    justify-content: center;
 
 }

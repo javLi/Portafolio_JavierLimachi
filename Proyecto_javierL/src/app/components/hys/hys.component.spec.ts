@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RsocialComponent } from './rsocial.component';
+import { HysComponent } from './hys.component';
 
-describe('RsocialComponent', () => {
-  let component: RsocialComponent;
-  let fixture: ComponentFixture<RsocialComponent>;
+describe('HysComponent', () => {
+  let component: HysComponent;
+  let fixture: ComponentFixture<HysComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RsocialComponent ]
+      declarations: [ HysComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RsocialComponent);
+    fixture = TestBed.createComponent(HysComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -21,3 +21,5 @@ describe('RsocialComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+

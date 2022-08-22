@@ -1,39 +1,58 @@
-.row {
+
+
+.about {
+    background-color: #52138e;
+    background-image: linear-gradient(328deg, #52138e 28%, #1e2e75 63%, #68a7e3  100%);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about_img img{
+   
+    width: 238px;
+    max-width: 100%;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.about_info {
+
+    background: rgba(177, 189, 209, 0.2);
+
+
+    border-radius: 20px 20px 20px 20px;
+    width: 70%;
+    max-width: 800px;
+    margin: 20px;
+    text-align: left;
     padding: 20px;
+
 }
 
-/* color y texto centrado*/
-div {
-    background-color: #6c757d;
-    text-align: center;
+.about .container h2{
+    font-size: 3rem;
+    color: #926eac;
+    padding-bottom: 1rem;
 }
 
-/*estilo foto perfil*/
-
-@media (min-width: 576px){
-    #fotoperfil{
-        position: absolute;
-        width: 18%;
-        border-radius: 44%;
-        box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 613px;
-    }
+.about .container p{
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 1.6;
+    padding-bottom: 1rem;
+}
+.about .container .about_info .about_datos h4{
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
 }
 
-@media (max-width: 575px){
-    #fotoperfil{
-        position: absolute;
-        width: 25%;
-        border-radius: 40%;
-        box-shadow: 3px 3px 3px grey;
-        left: 40%;
-        top: 607px;
-    }
-}
-
-/*etuiqueta nombre*/
-#nombre {
-    font-weight: bold;
-    margin-top: 30%;
+.about .container .about_info .about_datos span{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: white;
 }
